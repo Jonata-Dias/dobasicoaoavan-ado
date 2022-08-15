@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    margin: 100px 0px 70px 0px;
+}
+input{
+    outline: 0;
+    border: 0;
+    background-color: #555;
+    text-align: end;
+    padding:  20px;
+    appearance: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 340px;
+    color: #fff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+.numeros{
+    user-select: none;
+    display: grid;
+    align-self: center;
+    gap: 20px;
+    grid-template-areas: 
+    'limpar limpar limpar limpar'
+    'um dois tres mais'
+    'quatro cinco seis menos'
+    'sete oito nove multiplicacao'
+    'zero ponto igual divizao '
+    ;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.limpar{
+    grid-area: limpar;
+}
+.um{
+    grid-area: um;
+}
+.dois{
+    grid-area: dois;
+}
+.tres{
+    grid-area: tres;
+}
+.quatro{
+    grid-area: quatro;
+}
+.cinco{
+    grid-area: cinco;
+}
+.seis{
+    grid-area: seis;
+}
+.sete{
+    grid-area: sete;
+}
+
+.oito{
+    grid-area: oito;
+}
+.nove{
+    grid-area: nove;
+}
+.zero{
+    grid-area: zero;
+}
+.mais{
+    grid-area: mais;
+}
+.menos{
+    grid-area: menos;
+}
+.multiplicacao{
+    grid-area: multiplicacao;
+}
+.divizao{
+    grid-area: divizao;
+}
+.igual{
+    grid-area: igual;
+}
+.ponto{
+    grid-area: ponto;
+}

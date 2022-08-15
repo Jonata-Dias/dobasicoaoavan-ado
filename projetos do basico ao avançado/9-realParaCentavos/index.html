@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real para Centavos</title>
+    <style>
+        body{           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(38, 148, 148);
+        }
+        input{
+            width: 200px;
+            padding: 5px;
+            text-align: end;
+            font-size: 17px;
+            margin:40px 0px 20px 0px;
+        }
+        button{
+            padding: 5px;
+            font-size: 19px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+        button:hover{
+            color: rgb(216, 47, 47);
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>coventa reais para Centavos</h1>
+    <input type="number" min="1" max="999" maxlength="8">
+    <button>Calcular</button>
+    <div></div>
+    <div class="coins"></div>
+    <script src="./script.js" defer></script>
+</body>
+</html>

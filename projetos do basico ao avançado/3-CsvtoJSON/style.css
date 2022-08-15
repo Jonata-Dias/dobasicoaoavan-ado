@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, rgba(0, 0, 255, 0.664), rgba(255, 255, 0, 0.5), #ccc);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+h1{
+    margin-top: 100px;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container textarea{
+    width: 400px;
+    height: 250px;
+    font-size: 20px;
+    resize: none;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .btns button{
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.btns button:hover{
+    background-color: rgba(0, 0, 155, 0.664);
+    color: #fff;
+}
+
+

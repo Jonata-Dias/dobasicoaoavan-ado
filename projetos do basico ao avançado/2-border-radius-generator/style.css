@@ -1,0 +1,116 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    height: 100vh;
+    background-color: #ccc;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: darkred;
+    margin-bottom: 30px;
+}
+.copy{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.bordercopy{
+    text-align: center;
+    font-size: 21px;
+    
+    background-color: #777;
+    padding: 12px;
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    
+}
+.copy button{
+    text-align: center;
+    width: 80px;
+    font-size: 21px;
+    padding: 12px;
+    border-radius:0 5px 5px 0;
+    background-color: #777;
+    cursor: pointer;
+}
+.copy button:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.radius{
+    background-color: #eee;
+    font-size: 18px;
+    display: grid;
+    height: 150px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    'topright topleft'
+    'bottonright bottonleft'
+    ;
+}
+
+.raius-item{
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topright{
+    grid-area: topright;
+    
+}
+#topleft{
+    grid-area: topleft;
+
+}
+#bottonright{
+    grid-area: bottonright;
+ 
+}
+#bottonleft{
+    grid-area: bottonleft;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
