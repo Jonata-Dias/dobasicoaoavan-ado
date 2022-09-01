@@ -1,0 +1,25 @@
+{
+
+    "name":"caixa alta",
+    "description":"transorma as letras minuculas para maiusculas.",
+    "browser_action":{
+        "default_popup":"index.html"
+        
+    },
+    
+    "manifest_vertion":2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
